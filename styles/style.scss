@@ -105,13 +105,26 @@ header {
 }
 
 .ranking {
-  font-size: 18px;
   margin: 60px 16px 0 16px;
   h2 {
     margin-bottom: 30px;
     text-align: center;
+    font-size: 18px;
   }
   .ranking-wrapper {
     margin-bottom: 30px;
+  }
+}
+
+.archive {
+  h2 {
+    margin: 60px 0 25px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  p {
+    margin: 0 32px 20px 32px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333333;
   }
 }
