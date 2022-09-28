@@ -104,4 +104,16 @@ header li a {
   text-align: center;
   margin: 30px 0;
 }
+
+.ranking {
+  font-size: 18px;
+  margin: 60px 16px 0 16px;
+}
+.ranking h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.ranking .ranking-wrapper {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
