@@ -96,6 +96,11 @@ header li a {
   border-radius: 50%;
   margin: auto;
 }
+@media screen and (min-width: 960px) {
+  .profile img {
+    margin-top: 100px;
+  }
+}
 .profile .profile-text {
   margin: 0 20px;
 }
@@ -116,6 +121,9 @@ header li a {
 .ranking .ranking-wrapper {
   margin-bottom: 30px;
 }
+.ranking .ranking-wrapper p {
+  margin-top: 20px;
+}
 
 .archive h2 {
   margin: 60px 0 25px 0;
@@ -126,5 +134,11 @@ header li a {
   margin: 0 32px 20px 32px;
   padding-bottom: 20px;
   border-bottom: 1px solid #333333;
+}
+
+@media screen and (min-width: 960px) {
+  .pc-wrap {
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */
